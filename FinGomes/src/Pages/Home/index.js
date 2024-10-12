@@ -1,11 +1,11 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
-import Header from '../../Components/Header';
+import { StatusBar } from "expo-status-bar";
+import { StyleSheet, Text, View } from "react-native";
+import Header from "../../Components/Header";
 
 export default function Home() {
   return (
     <View style={styles.container}>
-      <Header/>
+      <Header nome="Natalino Gomes" />
       <Text>start working on your app!</Text>
       <StatusBar style="auto" />
     </View>
@@ -14,7 +14,7 @@ export default function Home() {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: '#fff',
-   
+    flex: 1,
+    backgroundColor: "#fff",
   },
 });
