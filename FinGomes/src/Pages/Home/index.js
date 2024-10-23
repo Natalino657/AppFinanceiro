@@ -15,7 +15,7 @@ const list = [
   },
   {
     id: 2,
-    label: "salario",
+    label: "Vencimento",
     value: "1000",
     date: "09/28/2024",
     type: 1, // 1 entradas/receita

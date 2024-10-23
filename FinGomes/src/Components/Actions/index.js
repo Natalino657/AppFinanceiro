@@ -24,7 +24,7 @@ export default function Actions() {
         <View style={styles.areaButton}>
           <AntDesign name="tagso" size={24} color="black" />
         </View>
-        <Text style={styles.labelButton}>Entradas</Text>
+        <Text style={styles.labelButton}>compras</Text>
       </TouchableOpacity>
 
       <TouchableOpacity style={styles.actionButton}>
